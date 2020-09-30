@@ -2,4 +2,6 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 ![license](https://badgen.net/github/license/micromatch/micromatch)
 # dViz
-A Visualization Library for Deep Learning
+A Visualization Library for Deep Learning.
+
+This library will enable you to view a presentable graph of your neural network architecture.

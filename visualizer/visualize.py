@@ -1,7 +1,5 @@
 from graphviz import Digraph
-import keras;
-from keras.models import Sequential;
-from keras.layers import Dense
+import keras
 import random
 
 def viewSimpleNN(model,name,colored=False,cluster=False,labelled=False):

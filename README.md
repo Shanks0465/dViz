@@ -4,4 +4,4 @@
 # dViz
 A Visualization Library for Deep Learning.
 
-This library will enable you to view a presentable graph of your neural network architecture.
+This library will enable you to visualize your neural network architectures.

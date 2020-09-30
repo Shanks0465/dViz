@@ -5,7 +5,18 @@ from keras.layers import Dense
 import random
 
 def viewSimpleNN(model,name,colored=False,cluster=False,labelled=False):
-  """ Return Architecture Diagram of given Simple Deep Neural Network"""
+  ''' Returns Architecture Diagram of given Simple Deep Neural Network.
+
+      Parameters:
+                    model (Keras Model): A Keras Model Object
+                    name (string): Name of the Architecture diagram
+                    colored (boolean): Layers to be colored or not
+                    cluster (boolean): Display Layer Separation
+                    labelled (boolean): Display layer names
+
+            Returns:
+                    Model Graph Architecture
+  '''
   dense=[]
   units=[]
   layers=[]
@@ -23,7 +34,7 @@ def viewSimpleNN(model,name,colored=False,cluster=False,labelled=False):
       units.append(layer.output_shape[1])
   for i in range(len(dense)):
     with m.subgraph(name=layer_name+str(i)) as c:
-      if cluster==True:
+      if labelled==True:
         c.attr(label="layer_"+str(i),labeljust="l",height="5",width="10",rank='same')
       if colored==True:
         col_value="#"+"%06x" % random.randint(0, 0xFFFFFF)

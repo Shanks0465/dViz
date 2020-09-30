@@ -1,3 +1,5 @@
-![facebook_cover_photo_2](https://user-images.githubusercontent.com/48712410/94607356-6e707080-02b9-11eb-9853-c400df324abb.png)
+![facebook_cover_photo_2](https://user-images.githubusercontent.com/48712410/94682355-7294a080-0342-11eb-9619-6d0aff02a533.png)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+![license](https://badgen.net/github/license/micromatch/micromatch)
 # dViz
 A Visualization Library for Deep Learning

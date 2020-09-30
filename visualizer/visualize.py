@@ -40,8 +40,8 @@ def viewSimpleNN(model,name,colored=False,cluster=False,labelled=False,spline=Tr
       units.append(layer.output_shape[1])
   for i in range(len(dense)):
     with m.subgraph(name=layer_name + str(i)) as c:
-      if cluster == True:
-        c.attr(label="layer_" + str(i), labeljust="l", height="5", width="10", rank='same')
+      if labelled == True:
+        c.attr(label=dense[i], labeljust="l", height="5", width="10", rank='same')
       if colored == True:
         col_value = "#" + "%06x" % random.randint(0, 0xFFFFFF)
         c.node_attr.update(style='filled', color=col_value, fontcolor=col_value)

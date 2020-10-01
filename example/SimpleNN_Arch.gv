@@ -1,0 +1,5 @@
+digraph SimpleNN_Arch {
+	dense [label=dense shape=box]
+	dense_1 [label=dense_1 shape=box]
+	dense -> dense_1 [constraint=false]
+}

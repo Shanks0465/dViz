@@ -1,0 +1,125 @@
+digraph SimpleNN {
+	graph [nodesep=1 ranksep=1 splines=true]
+	node [shape=circle]
+	subgraph cluster_0 {
+		node [color="#83b750" fontcolor="#83b750" style=filled]
+		height=5 label=input labeljust=l rank=same width=10
+		input0
+		input1
+		input2
+		input3
+		input4
+	}
+	subgraph cluster_1 {
+		node [color="#28d3e0" fontcolor="#28d3e0" style=filled]
+		height=5 label=dense labeljust=l rank=same width=10
+		dense0
+		dense1
+		dense2
+		dense3
+		dense4
+		dense5
+		dense6
+		dense7
+		dense8
+		dense9
+	}
+	subgraph cluster_2 {
+		node [color="#b6c775" fontcolor="#b6c775" style=filled]
+		height=5 label=dense_1 labeljust=l rank=same width=10
+		dense_10
+		dense_11
+		dense_12
+		dense_13
+	}
+	input0 -> dense0
+	input0 -> dense1
+	input0 -> dense2
+	input0 -> dense3
+	input0 -> dense4
+	input0 -> dense5
+	input0 -> dense6
+	input0 -> dense7
+	input0 -> dense8
+	input0 -> dense9
+	input1 -> dense0
+	input1 -> dense1
+	input1 -> dense2
+	input1 -> dense3
+	input1 -> dense4
+	input1 -> dense5
+	input1 -> dense6
+	input1 -> dense7
+	input1 -> dense8
+	input1 -> dense9
+	input2 -> dense0
+	input2 -> dense1
+	input2 -> dense2
+	input2 -> dense3
+	input2 -> dense4
+	input2 -> dense5
+	input2 -> dense6
+	input2 -> dense7
+	input2 -> dense8
+	input2 -> dense9
+	input3 -> dense0
+	input3 -> dense1
+	input3 -> dense2
+	input3 -> dense3
+	input3 -> dense4
+	input3 -> dense5
+	input3 -> dense6
+	input3 -> dense7
+	input3 -> dense8
+	input3 -> dense9
+	input4 -> dense0
+	input4 -> dense1
+	input4 -> dense2
+	input4 -> dense3
+	input4 -> dense4
+	input4 -> dense5
+	input4 -> dense6
+	input4 -> dense7
+	input4 -> dense8
+	input4 -> dense9
+	dense0 -> dense_10
+	dense0 -> dense_11
+	dense0 -> dense_12
+	dense0 -> dense_13
+	dense1 -> dense_10
+	dense1 -> dense_11
+	dense1 -> dense_12
+	dense1 -> dense_13
+	dense2 -> dense_10
+	dense2 -> dense_11
+	dense2 -> dense_12
+	dense2 -> dense_13
+	dense3 -> dense_10
+	dense3 -> dense_11
+	dense3 -> dense_12
+	dense3 -> dense_13
+	dense4 -> dense_10
+	dense4 -> dense_11
+	dense4 -> dense_12
+	dense4 -> dense_13
+	dense5 -> dense_10
+	dense5 -> dense_11
+	dense5 -> dense_12
+	dense5 -> dense_13
+	dense6 -> dense_10
+	dense6 -> dense_11
+	dense6 -> dense_12
+	dense6 -> dense_13
+	dense7 -> dense_10
+	dense7 -> dense_11
+	dense7 -> dense_12
+	dense7 -> dense_13
+	dense8 -> dense_10
+	dense8 -> dense_11
+	dense8 -> dense_12
+	dense8 -> dense_13
+	dense9 -> dense_10
+	dense9 -> dense_11
+	dense9 -> dense_12
+	dense9 -> dense_13
+}

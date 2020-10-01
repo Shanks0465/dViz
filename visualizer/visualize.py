@@ -15,7 +15,7 @@ def visualize_architecture(model,name):
     return graph
 
 def viewSimpleNN(model, name, colored=False, cluster=False, labelled=False, spline=True, nodesep='1', ranksep='1'):
-    ''' Returns Architecture Diagram of given Simple Deep Neural Network.
+    ''' Returns Architecture Diagram of given Simple Deep Neural Network
 
         Parameters:
                       model (Keras Model): A Keras Model Object

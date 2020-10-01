@@ -3,6 +3,14 @@ import keras
 import random
 
 def visualize_architecture(model,name):
+    ''' Returns Architecture Diagram of given Architecture Model
+        Parameters:
+                      model (Keras Model): A Keras Model Object
+                      name (string): Name of the Architecture diagram
+
+              Returns:
+                      Model Graph Architecture
+    '''
     graph = Digraph(name,format='png')
     layers=[layer.name for layer in model.layers]
     for layer in layers:
